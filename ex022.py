@@ -1,0 +1,5 @@
+nome = input('Digite seu nome: ').strip()
+print(nome.upper())
+print(nome.lower())
+print(nome.__len__()-nome.count(' '))
+print('{} {}'.format(nome.split(' ')[0], nome.split(' ')[0].__len__()))
